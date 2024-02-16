@@ -1,6 +1,7 @@
 let numeroSecreto = 0;
 let intentos = 0;
 
+let listaNumerosSorteados = []; //Añadiendo array
 /*let titulo = document.querySelector('h1'); //querySelector se utiliza para elegir un elemento HTML 
 titulo.innerHTML = 'Juego del número secreto'; //El h1 mostrara el titulo asignado aquí.
 
