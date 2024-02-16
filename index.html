@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Js Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="container_contenido">
+            <div class="container_informaciones">
+                <div class="container_texto">
+                    <h1></h1>
+                    <p class="texto_parrafo"></p>
+                </div>
+                <input type="number" id="valorUsuario" min="1" max="10" class="container_input">
+                <div class="chute container_botones">
+                    <button onclick="verificarIntento();" class="container_boton"> Intentar </button>
+                    <button onclick="reiniciarJuego();" class="container_boton" id="reiniciar" disabled>Nuevo juego</button>
+                </div>
+            </div>
+            <img src="./img/ia.png" alt="Una persona miraando a la izquierda">
+        </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
